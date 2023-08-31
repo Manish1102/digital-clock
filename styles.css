@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #131212;
+}
+
+.clock {
+    background-color: #070707;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(233, 46, 46, 0.868);
+    padding: 50px;
+    color: #ff3434;
+    transition: 1000ms;
+}
+
+.clock:hover{
+    color: aqua;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(27, 236, 240, 0.527);
+}
+.time {
+    font-size: 48px;
+    font-weight: bold;
+}
